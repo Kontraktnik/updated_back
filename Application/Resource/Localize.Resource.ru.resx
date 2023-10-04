@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Required" xml:space="preserve">
+        <value>Следующее поле обязательно для заполнения:</value>
+    </data>
+    <data name="Validation Errors" xml:space="preserve">
+        <value>Ошибки Валидации</value>
+    </data>
+    <data name="IIN" xml:space="preserve">
+        <value>ИИН</value>
+    </data>
+    <data name="Password" xml:space="preserve">
+        <value>Пароль</value>
+    </data>
+    <data name="Unique" xml:space="preserve">
+        <value>Поле должно быть уникальным:</value>
+    </data>
+    <data name="Area" xml:space="preserve">
+        <value>Область</value>
+    </data>
+    <data name="Areas" xml:space="preserve">
+        <value>Области</value>
+    </data>
+    <data name="TitleRu" xml:space="preserve">
+        <value>Наименование на русском</value>
+    </data>
+    <data name="TitleKz" xml:space="preserve">
+        <value>Наименование на казахском</value>
+    </data>
+    <data name="TitleEn" xml:space="preserve">
+        <value>Наименование на английском</value>
+    </data>
+    <data name="ArmyDepartament" xml:space="preserve">
+        <value>Департамент</value>
+    </data>
+    <data name="ArmyDepartaments" xml:space="preserve">
+        <value>Департаменты</value>
+    </data>
+    <data name="ArmyRank" xml:space="preserve">
+        <value>Воинское звание</value>
+    </data>
+    <data name="ArmyRanks" xml:space="preserve">
+        <value>Воинские звания</value>
+    </data>
+    <data name="ArmyRegion" xml:space="preserve">
+        <value>Региональные командования</value>
+    </data>
+    <data name="ArmyRegions" xml:space="preserve">
+        <value>Региональные командования</value>
+    </data>
+    <data name="ArmyType" xml:space="preserve">
+        <value>Тип ВС</value>
+    </data>
+    <data name="ArmyTypes" xml:space="preserve">
+        <value>Типы ВС</value>
+    </data>
+    <data name="CategoryPosition" xml:space="preserve">
+        <value>Категория должности</value>
+    </data>
+    <data name="CategoryPositions" xml:space="preserve">
+        <value>Категория должностей</value>
+    </data>
+    <data name="DriverLicense" xml:space="preserve">
+        <value>Водительские права</value>
+    </data>
+    <data name="DriverLicenses" xml:space="preserve">
+        <value>Водительские права</value>
+    </data>
+    <data name="Education" xml:space="preserve">
+        <value>Образование</value>
+    </data>
+    <data name="Educations" xml:space="preserve">
+        <value>Образование</value>
+    </data>
+    <data name="JobCategory" xml:space="preserve">
+        <value>Рабочая категория</value>
+    </data>
+    <data name="JobCategories" xml:space="preserve">
+        <value>Рабочие категории</value>
+    </data>
+    <data name="JobYear" xml:space="preserve">
+        <value>Выслуга лет</value>
+    </data>
+    <data name="JobYears" xml:space="preserve">
+        <value>Выслуга лет</value>
+    </data>
+    <data name="JobCategoryId" xml:space="preserve">
+        <value>Рабочая категория</value>
+    </data>
+    <data name="ServiceYearId" xml:space="preserve">
+        <value>Срок службы</value>
+    </data>
+    <data name="Salary" xml:space="preserve">
+        <value>Зарплата</value>
+    </data>
+    <data name="MedicalStatus" xml:space="preserve">
+        <value>Медицинский статус</value>
+    </data>
+    <data name="MedicalStatuses" xml:space="preserve">
+        <value>Медицинские статусы</value>
+    </data>
+    <data name="Code" xml:space="preserve">
+        <value>Код</value>
+    </data>
+    <data name="PhoneNotification" xml:space="preserve">
+        <value>Уведомления по телефону</value>
+    </data>
+    <data name="PhoneNotification" xml:space="preserve">
+        <value>Уведомления по телефону</value>
+    </data>
+    <data name="UserId" xml:space="preserve">
+        <value>Идентификатор пользователя</value>
+    </data>
+    <data name="Phone" xml:space="preserve">
+        <value>Номер телефона</value>
+    </data>
+    <data name="Purpose" xml:space="preserve">
+        <value>Цель</value>
+    </data>
+    <data name="Position" xml:space="preserve">
+        <value>Должность</value>
+    </data>
+    <data name="Positions" xml:space="preserve">
+        <value>Должности</value>
+    </data>
+    <data name="SecretLevelId" xml:space="preserve">
+        <value>Уровень секретности</value>
+    </data>
+    <data name="ArmyTypeId" xml:space="preserve">
+        <value>Тип ВС</value>
+    </data>
+    <data name="CategoryPositionId" xml:space="preserve">
+        <value>Категория должности</value>
+    </data>
+    <data name="ProfileFile" xml:space="preserve">
+        <value>Файл профиля</value>
+    </data>
+    <data name="ProfileFiles" xml:space="preserve">
+        <value>Файлы профиля</value>
+    </data>
+    <data name="Profile" xml:space="preserve">
+        <value>Заявка</value>
+    </data>
+    <data name="Profiles" xml:space="preserve">
+        <value>Заявки</value>
+    </data>
+    <data name="StepGroupId" xml:space="preserve">
+        <value>Групповой этап</value>
+    </data>
+    <data name="StepId" xml:space="preserve">
+        <value>Этап</value>
+    </data>
+    <data name="SurveyId" xml:space="preserve">
+        <value>Анкета</value>
+    </data>
+    <data name="AreaId" xml:space="preserve">
+        <value>Область</value>
+    </data>
+    <data name="RequestedUserId" xml:space="preserve">
+        <value>Идентификатор запрашивающего пользователя</value>
+    </data>
+    <data name="RequestedUserIIN " xml:space="preserve">
+        <value>ИИН запрашивающего пользователя</value>
+    </data>
+    <data name="RequestedStatus " xml:space="preserve">
+        <value>Запрошенный статус</value>
+    </data>
+    <data name="RequestedSIGN " xml:space="preserve">
+        <value>Подпись запрашивающего</value>
+    </data>
+    <data name="ConfirmedUserId " xml:space="preserve">
+        <value>Идентификатор подтверждающего пользователя</value>
+    </data>
+    <data name="ConfirmedStatus " xml:space="preserve">
+        <value>Статус подтверждающего</value>
+    </data>
+    <data name="ConfirmedSIGN " xml:space="preserve">
+        <value>Подпись подтверждающего</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Статус</value>
+    </data>
+    <data name="CreatedAt " xml:space="preserve">
+        <value>Дата создания</value>
+    </data>
+    <data name="ExpiredAt " xml:space="preserve">
+        <value>Дата истечения срока действия</value>
+    </data>
+    <data name="UpdatedAt " xml:space="preserve">
+        <value>Дата обновления</value>
+    </data>
+    <data name="Qualification" xml:space="preserve">
+        <value>Квалификация</value>
+    </data>
+    <data name="Percentage" xml:space="preserve">
+        <value>Процентная ставка</value>
+    </data>
+    <data name="RankSalary" xml:space="preserve">
+        <value>Ранговое жалованье</value>
+    </data>
+    <data name="RankSalaries" xml:space="preserve">
+        <value>Ранговое жалованье</value>
+    </data>
+    <data name="ArmyRankId" xml:space="preserve">
+        <value>Воинское звание</value>
+    </data>
+    <data name="Relative" xml:space="preserve">
+        <value>Родственник</value>
+    </data>
+    <data name="Relatives" xml:space="preserve">
+        <value>Родственники</value>
+    </data>
+    <data name="Role" xml:space="preserve">
+        <value>Роль</value>
+    </data>
+    <data name="Roles" xml:space="preserve">
+        <value>Роли</value>
+    </data>
+    <data name="SecretLevel" xml:space="preserve">
+        <value>Уровень секретности</value>
+    </data>
+    <data name="SecretLevels" xml:space="preserve">
+        <value>Уровень секретности</value>
+    </data>
+    <data name="ServiceYear" xml:space="preserve">
+        <value>Год службы</value>
+    </data>
+    <data name="ServiceYears" xml:space="preserve">
+        <value>Годы службы</value>
+    </data>
+    <data name="Max" xml:space="preserve">
+        <value>Максимальный</value>
+    </data>
+    <data name="Min" xml:space="preserve">
+        <value>Минимальный</value>
+    </data>
+    <data name="StepGroup" xml:space="preserve">
+        <value>Групповой этап</value>
+    </data>
+    <data name="StepGroups" xml:space="preserve">
+        <value>Групповые этапы</value>
+    </data>
+    <data name="Order" xml:space="preserve">
+        <value>Порядок</value>
+    </data>
+    <data name="StepOrders" xml:space="preserve">
+        <value>Порядок этапов</value>
+    </data>
+    <data name="PreviousStepId" xml:space="preserve">
+        <value>Предыдущий этап</value>
+    </data>
+    <data name="NextStepId" xml:space="preserve">
+        <value>Следующий этап</value>
+    </data>
+    <data name="RequestedRoleId" xml:space="preserve">
+        <value>Роль запрашивающего</value>
+    </data>
+    <data name="ConfirmedRoleId " xml:space="preserve">
+        <value>Роль подтверждающего</value>
+    </data>
+    <data name="IsFirst" xml:space="preserve">
+        <value>Первый</value>
+    </data>
+    <data name="IsLast" xml:space="preserve">
+        <value>Последний</value>
+    </data>
+    <data name="DayLimit" xml:space="preserve">
+        <value>Дата истечения срока действия</value>
+    </data>
+    <data name="SurveyDrivers" xml:space="preserve">
+        <value>Водительские удостоверения заявки</value>
+    </data>
+    <data name="DriverLicenseId" xml:space="preserve">
+        <value>Водительские права</value>
+    </data>
+    <data name="SurveyExecutors" xml:space="preserve">
+        <value>Исполнители заявки</value>
+    </data>
+    <data name="ExecutorId" xml:space="preserve">
+        <value>Исполнитель</value>
+    </data>
+    <data name="DirectorId" xml:space="preserve">
+        <value>Руководитель</value>
+    </data>
+    <data name="RelativeId" xml:space="preserve">
+        <value>Родственник</value>
+    </data>
+    <data name="Name" xml:space="preserve">
+        <value>Имя</value>
+    </data>
+    <data name="SurName" xml:space="preserve">
+        <value>Фамилия</value>
+    </data>
+    <data name="Surname" xml:space="preserve">
+        <value>Фамилия</value>
+    </data>
+    <data name="Patronomic" xml:space="preserve">
+        <value>Отчество</value>
+    </data>
+    <data name="Patronymic" xml:space="preserve">
+        <value>Отчество</value>
+    </data>
+    <data name="BirthDate" xml:space="preserve">
+        <value>День рождения</value>
+    </data>
+    <data name="FullName" xml:space="preserve">
+        <value>Полное имя</value>
+    </data>
+    <data name="Fullname" xml:space="preserve">
+        <value>Полное имя</value>
+    </data>
+    <data name="Email" xml:space="preserve">
+        <value>Электронная почта</value>
+    </data>
+    <data name="Phone" xml:space="preserve">
+        <value>Номер телефона</value>
+    </data>
+    <data name="BirthAreaId" xml:space="preserve">
+        <value>Место рождения</value>
+    </data>
+    <data name="Region" xml:space="preserve">
+        <value>Регион</value>
+    </data>
+    <data name="City" xml:space="preserve">
+        <value>Город</value>
+    </data>
+    <data name="Street" xml:space="preserve">
+        <value>Улица</value>
+    </data>
+    <data name="Home" xml:space="preserve">
+        <value>Дом</value>
+    </data>
+    <data name="Appartment" xml:space="preserve">
+        <value>Квартира</value>
+    </data>
+    <data name="EducationId" xml:space="preserve">
+        <value>Образование</value>
+    </data>
+    <data name="Experienced" xml:space="preserve">
+        <value>Опыт работы</value>
+    </data>
+    <data name="Served" xml:space="preserve">
+        <value>Проходил службу</value>
+    </data>
+    <data name="ServedArmyNumber" xml:space="preserve">
+        <value>Номер воинской части службы</value>
+    </data>
+    <data name="PositionName" xml:space="preserve">
+        <value>Название должности</value>
+    </data>
+    <data name="VTShServed" xml:space="preserve">
+        <value>Обучение в военно-технической школе</value>
+    </data>
+    <data name="VTShId" xml:space="preserve">
+        <value>Военно-техническая школа</value>
+    </data>
+    <data name="VTShYear" xml:space="preserve">
+        <value>Годы обучения</value>
+    </data>
+    <data name="PositionId" xml:space="preserve">
+        <value>Должность</value>
+    </data>
+    <data name="ArmyNumber" xml:space="preserve">
+        <value>Номер воинской части</value>
+    </data>
+    <data name="ContractYear" xml:space="preserve">
+        <value>Срок действия констракта</value>
+    </data>
+    <data name="VacancyId" xml:space="preserve">
+        <value>Вакансия</value>
+    </data>
+    <data name="ImageUrl" xml:space="preserve">
+        <value>Изображение</value>
+    </data>
+    <data name="AutoBiography" xml:space="preserve">
+        <value>Автобиография</value>
+    </data>
+    <data name="EducationUrl" xml:space="preserve">
+        <value>Образование</value>
+    </data>
+    <data name="IncomePropertyUrl" xml:space="preserve">
+        <value>Недвижимая собственность</value>
+    </data>
+    <data name="EmploymentUrl" xml:space="preserve">
+        <value>Трудовая книга</value>
+    </data>
+    <data name="MillitaryUrl" xml:space="preserve">
+        <value>Военный билет</value>
+    </data>
+    <data name="SpecialCheckUrl" xml:space="preserve">
+        <value>Специальная проверка</value>
+    </data>
+    <data name="IdentityCardUrl" xml:space="preserve">
+        <value>Удостоверение личности</value>
+    </data>
+    <data name="TuberUrl" xml:space="preserve">
+        <value>Справка с тубдиспансера</value>
+    </data>
+    <data name="DermatologUrl" xml:space="preserve">
+        <value>Справка с кожвендиспансера</value>
+    </data>
+    <data name="PsychoNeurologicalUrl" xml:space="preserve">
+        <value>Справка с психдиспансера</value>
+    </data>
+    <data name="NarcologicalUrl" xml:space="preserve">
+        <value>Справка с наркологического диспансера</value>
+    </data>
+    <data name="Agreed" xml:space="preserve">
+        <value>Согласие</value>
+    </data>
+    <data name="SignKey" xml:space="preserve">
+        <value>Ключ для подписи</value>
+    </data>
+    <data name="CurrentStepId" xml:space="preserve">
+        <value>Этап</value>
+    </data>
+    <data name="MedicalStatusId" xml:space="preserve">
+        <value>Медицинский статус</value>
+    </data>
+    <data name="User" xml:space="preserve">
+        <value>Пользователь</value>
+    </data>
+    <data name="Users" xml:space="preserve">
+        <value>Пользователи</value>
+    </data>
+    <data name="RoleId" xml:space="preserve">
+        <value>Роль</value>
+    </data>
+    <data name="Verified" xml:space="preserve">
+        <value>Подтвержден</value>
+    </data>
+    <data name="ArmyRegionId" xml:space="preserve">
+        <value>Региональные командования</value>
+    </data>
+    <data name="QualificationId" xml:space="preserve">
+        <value>Квалификация</value>
+    </data>
+    <data name="AuthorId" xml:space="preserve">
+        <value>Пользователь</value>
+    </data>
+    <data name="Quantity" xml:space="preserve">
+        <value>Количество</value>
+    </data>
+    <data name="DescriptionRu" xml:space="preserve">
+        <value>Описание на русском</value>
+    </data>
+    <data name="DescriptionEn" xml:space="preserve">
+        <value>Описание на английском</value>
+    </data>
+    <data name="DescriptionKz" xml:space="preserve">
+        <value>Описание на казахском</value>
+    </data>
+    <data name="VtShes" xml:space="preserve">
+        <value>ВТШ</value>
+    </data>
+    <data name="NotFound" xml:space="preserve">
+        <value>Не найдено</value>
+    </data>
+    <data name="Created" xml:space="preserve">
+        <value>Создано</value>
+    </data>
+    <data name="Updated" xml:space="preserve">
+        <value>Обновлено</value>
+    </data>
+    <data name="Deleted" xml:space="preserve">
+        <value>Удалено</value>
+    </data>
+    <data name="ServerError" xml:space="preserve">
+        <value>Ошибка Сервера</value>
+    </data>
+    <data name="BadRequest" xml:space="preserve">
+        <value>Неверный Запрос</value>
+    </data>
+    <data name="Forbidden" xml:space="preserve">
+        <value>У вас нет доступа для данного действия</value>
+    </data>
+    <data name="FixedLength" xml:space="preserve">
+        <value>Длина поля должна составлять:</value>
+    </data>
+    <data name="MaxLength" xml:space="preserve">
+        <value>Максимальная длина поля должна составлять:</value>
+    </data>
+    <data name="MinLength" xml:space="preserve">
+        <value>Минимальная длина поля должна составлять:</value>
+    </data>
+    <data name="ExistedError" xml:space="preserve">
+        <value>Следующее значение с таким полем существует:</value>
+    </data>
+    <data name="NotExistedError" xml:space="preserve">
+        <value>Следующее поле с данным значением не существует:</value>
+    </data>
+    <data name="NotValid" xml:space="preserve">
+        <value>Следующее поле не является валидным значением:</value>
+    </data>
+    <data name="SystemDataError" xml:space="preserve">
+        <value>Вы не можете удалять системные данные</value>
+    </data>
+    <data name="UnexpectedError" xml:space="preserve">
+        <value>Что-то пошло не так</value>
+    </data>
+    <data name="Registered" xml:space="preserve">
+        <value>Успешно зарегистрированы</value>
+    </data>
+    <data name="Welcome" xml:space="preserve">
+        <value>Добро пожаловать</value>
+    </data>
+    <data name="NotVerified" xml:space="preserve">
+        <value>Ваш аккаунт не подтвержден</value>
+    </data>
+    <data name="Nonactive" xml:space="preserve">
+        <value>Ваш аккаунт деактивирован</value>
+    </data>
+    <data name="Notification" xml:space="preserve">
+        <value>Код для подтверждения аккаунта успешно отправлен</value>
+    </data>
+    <data name="Success" xml:space="preserve">
+        <value>Успешно выполнено</value>
+    </data>
+    <data name="Failure" xml:space="preserve">
+        <value>Провалено</value>
+    </data>
+    <data name="StatusUpdated" xml:space="preserve">
+        <value>Статус по вашему запросу обновлен</value>
+    </data>
+    <data name="NotExisted" xml:space="preserve">
+        <value>Следующее значение не создано:</value>
+    </data>
+    <data name="Saved" xml:space="preserve">
+        <value>Сохранено</value>
+    </data>
+    <data name="NotEmpty" xml:space="preserve">
+        <value>Данное поле не должно быть пустым</value>
+    </data>
+    <data name="NotNull" xml:space="preserve">
+        <value>Заполните данное поле</value>
+    </data>
+    <data name="IIN_Existed" xml:space="preserve">
+        <value>Этот иин уже зарегистрирован</value>
+    </data>
+    <data name="Phone_Existed" xml:space="preserve">
+        <value>Этот номер телефона уже зарегистрирован</value>
+    </data>
+    <data name="Email_Existed" xml:space="preserve">
+        <value>Этот email уже зарегистрирован</value>
+    </data>
+    <data name="Invalid_Credentials" xml:space="preserve">
+        <value>Неверные данные</value>
+    </data>
+    <data name="Already_Verified" xml:space="preserve">
+        <value>Данный аккаунт уже активирован</value>
+    </data>
+    <data name="Invalid_Code" xml:space="preserve">
+        <value>Данный код уже активирован или неверен</value>
+    </data>
+    <data name="Account_Verified" xml:space="preserve">
+        <value>Ваш аккаунт успешно активирован</value>
+    </data>
+    <data name="Registered_Then_Verify" xml:space="preserve">
+        <value>Учетная запись успешно создана, пожалуйста, подтвердите ее введя код пришедший на почту</value>
+    </data>
+    <data name="Confirm_Account" xml:space="preserve">
+        <value>Пожалуйста, подтвердите учетную запись</value>
+    </data>
+    <data name="IIN_Number" xml:space="preserve">
+        <value>Допускаются только цифры длиной в 12 значений</value>
+    </data>
+    <data name="Password_Rules" xml:space="preserve">
+        <value>Минимальная длина пароля должна превышать 6 знаков, и содержать буквы (латиница) и цифры, а также разрешается специальные символы (@_)</value>
+    </data>
+    <data name="Name_Rules" xml:space="preserve">
+        <value>Допускаются только буквы русского и казахских алфавитов</value>
+    </data>
+    <data name="Phone_Rules" xml:space="preserve">
+        <value>Допускаются только телефонные номера казахстанских операторов (+77)</value>
+    </data>
+    <data name="Email_Rules" xml:space="preserve">
+        <value>Почта не является валидной</value>
+    </data>
+    <data name="OnlyNumber" xml:space="preserve">
+        <value>Допускаются только цифренные значения</value>
+    </data>
+</root>

@@ -1,0 +1,16 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "C:/Users/kuat.khamitov/Downloads/AsyncChannel/v10/Interfaces/AsyncChannelHttp_Service.wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, ShepAsyncHttp"
+    ],
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}

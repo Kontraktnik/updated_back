@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Required" xml:space="preserve">
+        <value>The nex field is required:</value>
+    </data>
+    <data name="Validation Errors" xml:space="preserve">
+        <value>Validation Error</value>
+    </data>
+    <data name="IIN" xml:space="preserve">
+        <value>IIN</value>
+    </data>
+    <data name="Password" xml:space="preserve">
+        <value>Password</value>
+    </data>
+    <data name="Unique" xml:space="preserve">
+        <value>The field must be unique:</value>
+    </data>
+    <data name="Area" xml:space="preserve">
+        <value>Area</value>
+    </data>
+    <data name="Areas" xml:space="preserve">
+        <value>Areas</value>
+    </data>
+    <data name="TitleRu" xml:space="preserve">
+        <value>Title in Russian</value>
+    </data>
+    <data name="TitleKz" xml:space="preserve">
+        <value>Title in Kazakh</value>
+    </data>
+    <data name="TitleEn" xml:space="preserve">
+        <value>Title in English</value>
+    </data>
+    <data name="ArmyDepartament" xml:space="preserve">
+        <value>Department</value>
+    </data>
+    <data name="ArmyDepartaments" xml:space="preserve">
+        <value>Department</value>
+    </data>
+    <data name="ArmyRank" xml:space="preserve">
+        <value>Military rank</value>
+    </data>
+    <data name="ArmyRanks" xml:space="preserve">
+        <value>Military ranks</value>
+    </data>
+    <data name="ArmyRegion" xml:space="preserve">
+        <value>Regional command</value>
+    </data>
+    <data name="ArmyRegions" xml:space="preserve">
+        <value>Regional command</value>
+    </data>
+    <data name="ArmyType" xml:space="preserve">
+        <value>Type of armed forces</value>
+    </data>
+    <data name="ArmyTypes" xml:space="preserve">
+        <value>Types of armed forces</value>
+    </data>
+    <data name="CategoryPosition" xml:space="preserve">
+        <value>Position category</value>
+    </data>
+    <data name="CategoryPositions" xml:space="preserve">
+        <value>Category of posts</value>
+    </data>
+    <data name="DriverLicense" xml:space="preserve">
+        <value>Driving license</value>
+    </data>
+    <data name="DriverLicenses" xml:space="preserve">
+        <value>Driving license</value>
+    </data>
+    <data name="Education" xml:space="preserve">
+        <value>Education</value>
+    </data>
+    <data name="Educations" xml:space="preserve">
+        <value>Educations</value>
+    </data>
+    <data name="JobCategory" xml:space="preserve">
+        <value>Working category</value>
+    </data>
+    <data name="JobCategories" xml:space="preserve">
+        <value>Working categories</value>
+    </data>
+    <data name="JobYear" xml:space="preserve">
+        <value>Length of service</value>
+    </data>
+    <data name="JobYears" xml:space="preserve">
+        <value>Length of service</value>
+    </data>
+    <data name="JobCategoryId" xml:space="preserve">
+        <value>Working category</value>
+    </data>
+    <data name="ServiceYearId" xml:space="preserve">
+        <value>Service life</value>
+    </data>
+    <data name="Salary" xml:space="preserve">
+        <value>Salary</value>
+    </data>
+    <data name="MedicalStatus" xml:space="preserve">
+        <value>Medical Status</value>
+    </data>
+    <data name="MedicalStatuses" xml:space="preserve">
+        <value>Medical statuses</value>
+    </data>
+    <data name="Code" xml:space="preserve">
+        <value>Code</value>
+    </data>
+    <data name="PhoneNotification" xml:space="preserve">
+        <value>Phone Notifications</value>
+    </data>
+    <data name="PhoneNotification" xml:space="preserve">
+        <value>Phone Notifications</value>
+    </data>
+    <data name="UserId" xml:space="preserve">
+        <value>User ID</value>
+    </data>
+    <data name="Phone" xml:space="preserve">
+        <value>Phone number</value>
+    </data>
+    <data name="Purpose" xml:space="preserve">
+        <value>Purpose</value>
+    </data>
+    <data name="Position" xml:space="preserve">
+        <value>Position</value>
+    </data>
+    <data name="Positions" xml:space="preserve">
+        <value>Positions</value>
+    </data>
+    <data name="SecretLevelId" xml:space="preserve">
+        <value>The level of secrecy</value>
+    </data>
+    <data name="ArmyTypeId" xml:space="preserve">
+        <value>Type of armed forces</value>
+    </data>
+    <data name="CategoryPositionId" xml:space="preserve">
+        <value>Position category</value>
+    </data>
+    <data name="ProfileFile" xml:space="preserve">
+        <value>Profile file</value>
+    </data>
+    <data name="ProfileFiles" xml:space="preserve">
+        <value>Profile files</value>
+    </data>
+    <data name="Profile" xml:space="preserve">
+        <value>Request</value>
+    </data>
+    <data name="Profiles" xml:space="preserve">
+        <value>Requests</value>
+    </data>
+    <data name="StepGroupId" xml:space="preserve">
+        <value>Group stage</value>
+    </data>
+    <data name="StepId" xml:space="preserve">
+        <value>Stage</value>
+    </data>
+    <data name="SurveyId" xml:space="preserve">
+        <value>Profile</value>
+    </data>
+    <data name="AreaId" xml:space="preserve">
+        <value>Area</value>
+    </data>
+    <data name="RequestedUserId" xml:space="preserve">
+        <value>ID of the requesting user</value>
+    </data>
+    <data name="RequestedUserIIN " xml:space="preserve">
+        <value>IIN of the requesting user</value>
+    </data>
+    <data name="RequestedStatus " xml:space="preserve">
+        <value>Requested status</value>
+    </data>
+    <data name="RequestedSIGN " xml:space="preserve">
+        <value>Requester's signature</value>
+    </data>
+    <data name="ConfirmedUserId " xml:space="preserve">
+        <value>ID of the confirming user</value>
+    </data>
+    <data name="ConfirmedStatus " xml:space="preserve">
+        <value>Confirming status</value>
+    </data>
+    <data name="ConfirmedSIGN " xml:space="preserve">
+        <value>Signature of the confirming</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Status</value>
+    </data>
+    <data name="CreatedAt " xml:space="preserve">
+        <value>Date of creation</value>
+    </data>
+    <data name="ExpiredAt " xml:space="preserve">
+        <value>Expiration date</value>
+    </data>
+    <data name="UpdatedAt " xml:space="preserve">
+        <value>Update date</value>
+    </data>
+    <data name="Qualification" xml:space="preserve">
+        <value>Qualification</value>
+    </data>
+    <data name="Percentage" xml:space="preserve">
+        <value>Interest rate</value>
+    </data>
+    <data name="RankSalary" xml:space="preserve">
+        <value>Rank Salary</value>
+    </data>
+    <data name="RankSalaries" xml:space="preserve">
+        <value>Rank Salaries</value>
+    </data>
+    <data name="ArmyRankId" xml:space="preserve">
+        <value>Military rank</value>
+    </data>
+    <data name="Relative" xml:space="preserve">
+        <value>Relative</value>
+    </data>
+    <data name="Relatives" xml:space="preserve">
+        <value>Relatives</value>
+    </data>
+    <data name="Role" xml:space="preserve">
+        <value>Role</value>
+    </data>
+    <data name="Roles" xml:space="preserve">
+        <value>Roles</value>
+    </data>
+    <data name="SecretLevel" xml:space="preserve">
+        <value>The level of secrecy</value>
+    </data>
+    <data name="SecretLevels" xml:space="preserve">
+        <value>The level of secrecy</value>
+    </data>
+    <data name="ServiceYear" xml:space="preserve">
+        <value>Year of service</value>
+    </data>
+    <data name="ServiceYears" xml:space="preserve">
+        <value>Years of service</value>
+    </data>
+    <data name="Max" xml:space="preserve">
+        <value>Maximum</value>
+    </data>
+    <data name="Min" xml:space="preserve">
+        <value>Minimum</value>
+    </data>
+    <data name="StepGroup" xml:space="preserve">
+        <value>Group stage</value>
+    </data>
+    <data name="StepGroups" xml:space="preserve">
+        <value>Group stages</value>
+    </data>
+    <data name="Order" xml:space="preserve">
+        <value>Order</value>
+    </data>
+    <data name="StepOrders" xml:space="preserve">
+        <value>The order of the stages</value>
+    </data>
+    <data name="PreviousStepId" xml:space="preserve">
+        <value>Previous stage</value>
+    </data>
+    <data name="NextStepId" xml:space="preserve">
+        <value>The next stage</value>
+    </data>
+    <data name="RequestedRoleId" xml:space="preserve">
+        <value>The role of the requester</value>
+    </data>
+    <data name="ConfirmedRoleId " xml:space="preserve">
+        <value>The role of the confirmator</value>
+    </data>
+    <data name="IsFirst" xml:space="preserve">
+        <value>First</value>
+    </data>
+    <data name="IsLast" xml:space="preserve">
+        <value>Last</value>
+    </data>
+    <data name="DayLimit" xml:space="preserve">
+        <value>Expiration date</value>
+    </data>
+    <data name="SurveyDrivers" xml:space="preserve">
+        <value>Driver's licenses applications</value>
+    </data>
+    <data name="DriverLicenseId" xml:space="preserve">
+        <value>Driving license</value>
+    </data>
+    <data name="SurveyExecutors" xml:space="preserve">
+        <value>Performers of the application</value>
+    </data>
+    <data name="ExecutorId" xml:space="preserve">
+        <value>Executor</value>
+    </data>
+    <data name="DirectorId" xml:space="preserve">
+        <value>Headmaster</value>
+    </data>
+    <data name="RelativeId" xml:space="preserve">
+        <value>Relative</value>
+    </data>
+    <data name="Name" xml:space="preserve">
+        <value>Name</value>
+    </data>
+    <data name="SurName" xml:space="preserve">
+        <value>Surname</value>
+    </data>
+    <data name="Surname" xml:space="preserve">
+        <value>Surname</value>
+    </data>
+    <data name="Patronomic" xml:space="preserve">
+        <value>Patronymic</value>
+    </data>
+    <data name="Patronymic" xml:space="preserve">
+        <value>Patronymic</value>
+    </data>
+    <data name="BirthDate" xml:space="preserve">
+        <value>Birth Date</value>
+    </data>
+    <data name="FullName" xml:space="preserve">
+        <value>Full Name</value>
+    </data>
+    <data name="Fullname" xml:space="preserve">
+        <value>Full Name</value>
+    </data>
+    <data name="Email" xml:space="preserve">
+        <value>Email</value>
+    </data>
+    <data name="Phone" xml:space="preserve">
+        <value>Phone number</value>
+    </data>
+    <data name="BirthAreaId" xml:space="preserve">
+        <value>Place of birth</value>
+    </data>
+    <data name="Region" xml:space="preserve">
+        <value>Region</value>
+    </data>
+    <data name="City" xml:space="preserve">
+        <value>City</value>
+    </data>
+    <data name="Street" xml:space="preserve">
+        <value>Street</value>
+    </data>
+    <data name="Home" xml:space="preserve">
+        <value>Home</value>
+    </data>
+    <data name="Appartment" xml:space="preserve">
+        <value>Flat</value>
+    </data>
+    <data name="EducationId" xml:space="preserve">
+        <value>Education</value>
+    </data>
+    <data name="Experienced" xml:space="preserve">
+        <value>Work experience</value>
+    </data>
+    <data name="Served" xml:space="preserve">
+        <value>Served</value>
+    </data>
+    <data name="ServedArmyNumber" xml:space="preserve">
+        <value>Number of the military unit of the service</value>
+    </data>
+    <data name="PositionName" xml:space="preserve">
+        <value>Title of the position</value>
+    </data>
+    <data name="VTShServed" xml:space="preserve">
+        <value>Training at the military technical school</value>
+    </data>
+    <data name="VTShId" xml:space="preserve">
+        <value>Military Technical School</value>
+    </data>
+    <data name="VTShYear" xml:space="preserve">
+        <value>Years of study</value>
+    </data>
+    <data name="PositionId" xml:space="preserve">
+        <value>Position</value>
+    </data>
+    <data name="ArmyNumber" xml:space="preserve">
+        <value>Number of the military unit</value>
+    </data>
+    <data name="ContractYear" xml:space="preserve">
+        <value>The validity period of the construction</value>
+    </data>
+    <data name="VacancyId" xml:space="preserve">
+        <value>Vacancy</value>
+    </data>
+    <data name="ImageUrl" xml:space="preserve">
+        <value>Image</value>
+    </data>
+    <data name="AutoBiography" xml:space="preserve">
+        <value>Autobiography</value>
+    </data>
+    <data name="EducationUrl" xml:space="preserve">
+        <value>Education</value>
+    </data>
+    <data name="IncomePropertyUrl" xml:space="preserve">
+        <value>Immovable property</value>
+    </data>
+    <data name="EmploymentUrl" xml:space="preserve">
+        <value>Labor book</value>
+    </data>
+    <data name="MillitaryUrl" xml:space="preserve">
+        <value>Military ticket</value>
+    </data>
+    <data name="SpecialCheckUrl" xml:space="preserve">
+        <value>Special Check</value>
+    </data>
+    <data name="IdentityCardUrl" xml:space="preserve">
+        <value>Identification card</value>
+    </data>
+    <data name="TuberUrl" xml:space="preserve">
+        <value>Help from the tubdispanser</value>
+    </data>
+    <data name="DermatologUrl" xml:space="preserve">
+        <value>Help from the skin dispensary</value>
+    </data>
+    <data name="PsychoNeurologicalUrl" xml:space="preserve">
+        <value>Help from a psychiatric clinic</value>
+    </data>
+    <data name="NarcologicalUrl" xml:space="preserve">
+        <value>Help from the narcological dispensary</value>
+    </data>
+    <data name="Agreed" xml:space="preserve">
+        <value>Agreed</value>
+    </data>
+    <data name="SignKey" xml:space="preserve">
+        <value>Signature key</value>
+    </data>
+    <data name="CurrentStepId" xml:space="preserve">
+        <value>Stage</value>
+    </data>
+    <data name="MedicalStatusId" xml:space="preserve">
+        <value>Medical Status</value>
+    </data>
+    <data name="User" xml:space="preserve">
+        <value>User</value>
+    </data>
+    <data name="Users" xml:space="preserve">
+        <value>Users</value>
+    </data>
+    <data name="RoleId" xml:space="preserve">
+        <value>Role</value>
+    </data>
+    <data name="Verified" xml:space="preserve">
+        <value>Confirmed</value>
+    </data>
+    <data name="ArmyRegionId" xml:space="preserve">
+        <value>Regional command</value>
+    </data>
+    <data name="QualificationId" xml:space="preserve">
+        <value>Qualification</value>
+    </data>
+    <data name="AuthorId" xml:space="preserve">
+        <value>User</value>
+    </data>
+    <data name="Quantity" xml:space="preserve">
+        <value>Quantity</value>
+    </data>
+    <data name="DescriptionRu" xml:space="preserve">
+        <value>Description in Russian</value>
+    </data>
+    <data name="DescriptionEn" xml:space="preserve">
+        <value>Description in English</value>
+    </data>
+    <data name="DescriptionKz" xml:space="preserve">
+        <value>Description in Kazakh</value>
+    </data>
+    <data name="VtShes" xml:space="preserve">
+        <value>MTS</value>
+    </data>
+    <data name="NotFound" xml:space="preserve">
+        <value>Not Found</value>
+    </data>
+    <data name="Created" xml:space="preserve">
+        <value>Created</value>
+    </data>
+    <data name="Updated" xml:space="preserve">
+        <value>Updated</value>
+    </data>
+    <data name="Deleted" xml:space="preserve">
+        <value>Deleted</value>
+    </data>
+    <data name="ServerError" xml:space="preserve">
+        <value>Server Error</value>
+    </data>
+    <data name="BadRequest" xml:space="preserve">
+        <value>Bad Request</value>
+    </data>
+    <data name="Forbidden" xml:space="preserve">
+        <value>You don't have access to this action</value>
+    </data>
+    <data name="FixedLength" xml:space="preserve">
+        <value>The length of the field should be:</value>
+    </data>
+    <data name="MaxLength" xml:space="preserve">
+        <value>The maximum field length should be:</value>
+    </data>
+    <data name="MinLength" xml:space="preserve">
+        <value>The minimum field length should be:</value>
+    </data>
+    <data name="ExistedError" xml:space="preserve">
+        <value>The following value with such a field exists:</value>
+    </data>
+    <data name="NotExistedError" xml:space="preserve">
+        <value>The following field with this value does not exist:</value>
+    </data>
+    <data name="NotValid" xml:space="preserve">
+        <value>The following field is not a valid value:</value>
+    </data>
+    <data name="SystemDataError" xml:space="preserve">
+        <value>You cannot delete system data</value>
+    </data>
+    <data name="UnexpectedError" xml:space="preserve">
+        <value>Something went wrong</value>
+    </data>
+    <data name="Registered" xml:space="preserve">
+        <value>Successfully registered</value>
+    </data>
+    <data name="Welcome" xml:space="preserve">
+        <value>Welcome</value>
+    </data>
+    <data name="NotVerified" xml:space="preserve">
+        <value>Your account is not verified</value>
+    </data>
+    <data name="Nonactive" xml:space="preserve">
+        <value>Your account has been deactivated</value>
+    </data>
+    <data name="Notification" xml:space="preserve">
+        <value>The account verification code has been successfully sent</value>
+    </data>
+    <data name="Success" xml:space="preserve">
+        <value>Completed successfully</value>
+    </data>
+    <data name="Failure" xml:space="preserve">
+        <value>Failed</value>
+    </data>
+    <data name="StatusUpdated" xml:space="preserve">
+        <value>The status of your request has been updated</value>
+    </data>
+    <data name="NotExisted" xml:space="preserve">
+        <value>The following value is not created:</value>
+    </data>
+    <data name="Saved" xml:space="preserve">
+        <value>Saved</value>
+    </data>
+    <data name="NotEmpty" xml:space="preserve">
+        <value>This field should not be empty</value>
+    </data>
+    <data name="NotNull" xml:space="preserve">
+        <value>Fill in this field</value>
+    </data>
+    <data name="IIN_Existed" xml:space="preserve">
+        <value>This iin is already taken</value>
+    </data>
+    <data name="Phone_Existed" xml:space="preserve">
+        <value>This phone number is already registered</value>
+    </data>
+    <data name="Email_Existed" xml:space="preserve">
+        <value>This email address is already registered</value>
+    </data>
+    <data name="Invalid_Credentials" xml:space="preserve">
+        <value>Incorrect data</value>
+    </data>
+    <data name="Already_Verified" xml:space="preserve">
+        <value>This account has already been activated</value>
+    </data>
+    <data name="Invalid_Code" xml:space="preserve">
+        <value>This code has already been activated or is incorrect</value>
+    </data>
+    <data name="Account_Verified" xml:space="preserve">
+        <value>Your account has been successfully activated</value>
+    </data>
+    <data name="Registered_Then_Verify" xml:space="preserve">
+        <value>The account has been successfully created, please confirm it by entering the code that came to the mail</value>
+    </data>
+    <data name="Confirm_Account" xml:space="preserve">
+        <value>Please, confirm Account</value>
+    </data>
+    <data name="IIN_Number" xml:space="preserve">
+        <value>Only digits with a length of 12 values are allowed</value>
+    </data>
+    <data name="Password_Rules" xml:space="preserve">
+        <value>The minimum password length must exceed 6 characters, and contain letters (Latin) and numbers, as well as special characters (@_) are allowed</value>
+    </data>
+    <data name="Name_Rules" xml:space="preserve">
+        <value>Only letters of the Russian and Kazakh alphabets are allowed</value>
+    </data>
+    <data name="Phone_Rules" xml:space="preserve">
+        <value>Only telephone numbers of Kazakhstani operators are allowed (+77)</value>
+    </data>
+    <data name="Email_Rules" xml:space="preserve">
+        <value>The mail is not valid</value>
+    </data>
+    <data name="OnlyNumber" xml:space="preserve">
+        <value>Only numeric values are allowed</value>
+    </data>
+</root>

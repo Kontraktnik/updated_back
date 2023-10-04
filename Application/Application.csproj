@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="FluentValidation" Version="9.5.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.5.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\Infrastructure" />
+    <Folder Include="DTO\StatisticsCounterDTO" />
+    <Folder Include="Features\AuthCQRS\Query" />
+    <Folder Include="Features\PhoneNotificationCQRS\Query" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource\Localize.Resource.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localize.Resource.en.Designer.cs</LastGenOutput>
+      <DependentUpon>Localize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resource\Localize.Resource.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localize.Resource.ru.Designer.cs</LastGenOutput>
+      <DependentUpon>Localize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resource\Localize.Resource.kk.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localize.Resource.kk.Designer.cs</LastGenOutput>
+      <DependentUpon>Localize.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource\Localize.Resource.en.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Localize.Resource.en.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resource\Localize.Resource.ru.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Localize.Resource.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resource\Localize.Resource.kk.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Localize.Resource.kk.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

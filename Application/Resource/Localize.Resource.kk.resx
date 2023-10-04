@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Required" xml:space="preserve">
+        <value>Келесі өрісті толтыру қажет</value>
+    </data>
+    <data name="Validation Errors" xml:space="preserve">
+        <value>Валидация ошибкасы</value>
+    </data>
+    <data name="IIN" xml:space="preserve">
+        <value>ЖСН</value>
+    </data>
+    <data name="Password" xml:space="preserve">
+        <value>Құпия сөз</value>
+    </data>
+    <data name="Unique" xml:space="preserve">
+        <value>Өріс бірегей болуы керек:</value>
+    </data>
+    <data name="Area" xml:space="preserve">
+        <value>Облыс</value>
+    </data>
+    <data name="Areas" xml:space="preserve">
+        <value>Облыстар</value>
+    </data>
+    <data name="TitleRu" xml:space="preserve">
+        <value>Орыс тіліндегі атауы</value>
+    </data>
+    <data name="TitleKz" xml:space="preserve">
+        <value>Қазақша атауы</value>
+    </data>
+    <data name="TitleEn" xml:space="preserve">
+        <value>Ағылшын тіліндегі атауы</value>
+    </data>
+    <data name="ArmyDepartament" xml:space="preserve">
+        <value>Департамент</value>
+    </data>
+    <data name="ArmyDepartaments" xml:space="preserve">
+        <value>Департаменттер</value>
+    </data>
+    <data name="ArmyRank" xml:space="preserve">
+        <value>Әскери атақ</value>
+    </data>
+    <data name="ArmyRanks" xml:space="preserve">
+        <value>Әскери атақтар</value>
+    </data>
+    <data name="ArmyRegion" xml:space="preserve">
+        <value>Аймақтық қолбасшылық</value>
+    </data>
+    <data name="ArmyRegions" xml:space="preserve">
+        <value>Аймақтық қолбасшылықтар</value>
+    </data>
+    <data name="ArmyType" xml:space="preserve">
+        <value>Қарулы Күштердің түрі</value>
+    </data>
+    <data name="ArmyTypes" xml:space="preserve">
+        <value>Қарулы Күштердің түрлері</value>
+    </data>
+    <data name="CategoryPosition" xml:space="preserve">
+        <value>Лауазым санаты</value>
+    </data>
+    <data name="CategoryPositions" xml:space="preserve">
+        <value>Лауазымдар санаты</value>
+    </data>
+    <data name="DriverLicense" xml:space="preserve">
+        <value>Жүргізуші куәлігі</value>
+    </data>
+    <data name="DriverLicenses" xml:space="preserve">
+        <value>Жүргізуші куәлігі</value>
+    </data>
+    <data name="Education" xml:space="preserve">
+        <value>Білім</value>
+    </data>
+    <data name="Educations" xml:space="preserve">
+        <value>Білімі</value>
+    </data>
+    <data name="JobCategory" xml:space="preserve">
+        <value>Жұмыс санаты</value>
+    </data>
+    <data name="JobCategories" xml:space="preserve">
+        <value>Жұмыс санаттары</value>
+    </data>
+    <data name="JobYear" xml:space="preserve">
+        <value>Еңбек сіңірген жылдары</value>
+    </data>
+    <data name="JobYears" xml:space="preserve">
+        <value>Еңбек сіңірген жылдары</value>
+    </data>
+    <data name="JobCategoryId" xml:space="preserve">
+        <value>Жұмыс санаты</value>
+    </data>
+    <data name="ServiceYearId" xml:space="preserve">
+        <value>Қызмет мерзімі</value>
+    </data>
+    <data name="Salary" xml:space="preserve">
+        <value>Жалақы</value>
+    </data>
+    <data name="MedicalStatus" xml:space="preserve">
+        <value>Медициналық мәртебе</value>
+    </data>
+    <data name="MedicalStatuses" xml:space="preserve">
+        <value>Медициналық мәртебелер</value>
+    </data>
+    <data name="Code" xml:space="preserve">
+        <value>Код</value>
+    </data>
+    <data name="PhoneNotification" xml:space="preserve">
+        <value>Телефон арқылы хабарландырулар</value>
+    </data>
+    <data name="PhoneNotification" xml:space="preserve">
+        <value>Телефон арқылы хабарландырулар</value>
+    </data>
+    <data name="UserId" xml:space="preserve">
+        <value>Пайдаланушы идентификаторы</value>
+    </data>
+    <data name="Phone" xml:space="preserve">
+        <value>Телефон нөмірі</value>
+    </data>
+    <data name="Purpose" xml:space="preserve">
+        <value>Мақсат</value>
+    </data>
+    <data name="Position" xml:space="preserve">
+        <value>Лауазымы</value>
+    </data>
+    <data name="Positions" xml:space="preserve">
+        <value>Лауазымдары</value>
+    </data>
+    <data name="SecretLevelId" xml:space="preserve">
+        <value>Құпиялылық деңгейі</value>
+    </data>
+    <data name="ArmyTypeId" xml:space="preserve">
+        <value>Қарулы Күштердің түрі</value>
+    </data>
+    <data name="CategoryPositionId" xml:space="preserve">
+        <value>Лауазым санаты</value>
+    </data>
+    <data name="ProfileFile" xml:space="preserve">
+        <value>Профиль файлы</value>
+    </data>
+    <data name="ProfileFiles" xml:space="preserve">
+        <value>Профиль файлдары</value>
+    </data>
+    <data name="Profile" xml:space="preserve">
+        <value>Өтінім</value>
+    </data>
+    <data name="Profiles" xml:space="preserve">
+        <value>Өтінімдер</value>
+    </data>
+    <data name="StepGroupId" xml:space="preserve">
+        <value>Топтық кезең</value>
+    </data>
+    <data name="StepId" xml:space="preserve">
+        <value>Кезең</value>
+    </data>
+    <data name="SurveyId" xml:space="preserve">
+        <value>Сауалнама</value>
+    </data>
+    <data name="AreaId" xml:space="preserve">
+        <value>Облыс</value>
+    </data>
+    <data name="RequestedUserId" xml:space="preserve">
+        <value>Сұралған пайдаланушы идентификаторы</value>
+    </data>
+    <data name="RequestedUserIIN " xml:space="preserve">
+        <value>Сұрау салушы пайдаланушының ЖСН</value>
+    </data>
+    <data name="RequestedStatus " xml:space="preserve">
+        <value>Сұралған мәртебе</value>
+    </data>
+    <data name="RequestedSIGN " xml:space="preserve">
+        <value>Сұрау салушының қолы</value>
+    </data>
+    <data name="ConfirmedUserId " xml:space="preserve">
+        <value>Растайтын пайдаланушы идентификаторы</value>
+    </data>
+    <data name="ConfirmedStatus " xml:space="preserve">
+        <value>Растау мәртебесі</value>
+    </data>
+    <data name="ConfirmedSIGN " xml:space="preserve">
+        <value>Растаушының қолы</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Мәртебесі</value>
+    </data>
+    <data name="CreatedAt " xml:space="preserve">
+        <value>Құрылған күні</value>
+    </data>
+    <data name="ExpiredAt " xml:space="preserve">
+        <value>Жарамдылық мерзімі</value>
+    </data>
+    <data name="UpdatedAt " xml:space="preserve">
+        <value>Жаңарту күні</value>
+    </data>
+    <data name="Qualification" xml:space="preserve">
+        <value>Біліктілік</value>
+    </data>
+    <data name="Percentage" xml:space="preserve">
+        <value>Пайыздық мөлшерлеме</value>
+    </data>
+    <data name="RankSalary" xml:space="preserve">
+        <value>Дәрежелік жалақы</value>
+    </data>
+    <data name="RankSalaries" xml:space="preserve">
+        <value>Дәрежелік жалақы</value>
+    </data>
+    <data name="ArmyRankId" xml:space="preserve">
+        <value>Әскери атақ</value>
+    </data>
+    <data name="Relative" xml:space="preserve">
+        <value>Туыс</value>
+    </data>
+    <data name="Relatives" xml:space="preserve">
+        <value>Туыстары</value>
+    </data>
+    <data name="Role" xml:space="preserve">
+        <value>Рөлі</value>
+    </data>
+    <data name="Roles" xml:space="preserve">
+        <value>Рөлдер</value>
+    </data>
+    <data name="SecretLevel" xml:space="preserve">
+        <value>Құпиялылық деңгейі</value>
+    </data>
+    <data name="SecretLevels" xml:space="preserve">
+        <value>Құпиялылық деңгейі</value>
+    </data>
+    <data name="ServiceYear" xml:space="preserve">
+        <value>Қызмет жылы</value>
+    </data>
+    <data name="ServiceYears" xml:space="preserve">
+        <value>Қызмет еткен жылдары</value>
+    </data>
+    <data name="Max" xml:space="preserve">
+        <value>Максималды</value>
+    </data>
+    <data name="Min" xml:space="preserve">
+        <value>Минималды</value>
+    </data>
+    <data name="StepGroup" xml:space="preserve">
+        <value>Топтық кезең</value>
+    </data>
+    <data name="StepGroups" xml:space="preserve">
+        <value>Топтық кезеңдер</value>
+    </data>
+    <data name="Order" xml:space="preserve">
+        <value>Рет</value>
+    </data>
+    <data name="StepOrders" xml:space="preserve">
+        <value>Кезеңдердің тәртібі</value>
+    </data>
+    <data name="PreviousStepId" xml:space="preserve">
+        <value>Алдыңғы кезең</value>
+    </data>
+    <data name="NextStepId" xml:space="preserve">
+        <value>Келесі кезең</value>
+    </data>
+    <data name="RequestedRoleId" xml:space="preserve">
+        <value>Сұраушының рөлі</value>
+    </data>
+    <data name="ConfirmedRoleId " xml:space="preserve">
+        <value>Растау рөлі</value>
+    </data>
+    <data name="IsFirst" xml:space="preserve">
+        <value>Бірінші</value>
+    </data>
+    <data name="IsLast" xml:space="preserve">
+        <value>Соңғы</value>
+    </data>
+    <data name="DayLimit" xml:space="preserve">
+        <value>Жарамдылық мерзімі</value>
+    </data>
+    <data name="SurveyDrivers" xml:space="preserve">
+        <value>Өтініш жүргізуші куәліктері</value>
+    </data>
+    <data name="DriverLicenseId" xml:space="preserve">
+        <value>Жүргізуші куәлігі</value>
+    </data>
+    <data name="SurveyExecutors" xml:space="preserve">
+        <value>Өтінімді орындаушылар</value>
+    </data>
+    <data name="ExecutorId" xml:space="preserve">
+        <value>Орындаушы</value>
+    </data>
+    <data name="DirectorId" xml:space="preserve">
+        <value>Басшы</value>
+    </data>
+    <data name="RelativeId" xml:space="preserve">
+        <value>Туыс</value>
+    </data>
+    <data name="Name" xml:space="preserve">
+        <value>Аты</value>
+    </data>
+    <data name="SurName" xml:space="preserve">
+        <value>Тегі</value>
+    </data>
+    <data name="Surname" xml:space="preserve">
+        <value>Тегі</value>
+    </data>
+    <data name="Patronomic" xml:space="preserve">
+        <value>Әкесінің аты</value>
+    </data>
+    <data name="Patronymic" xml:space="preserve">
+        <value>Әкесінің аты</value>
+    </data>
+    <data name="BirthDate" xml:space="preserve">
+        <value>Туған күні</value>
+    </data>
+    <data name="FullName" xml:space="preserve">
+        <value>Толық аты</value>
+    </data>
+    <data name="Fullname" xml:space="preserve">
+        <value>Толық аты</value>
+    </data>
+    <data name="Email" xml:space="preserve">
+        <value>Электрондық пошта</value>
+    </data>
+    <data name="Phone" xml:space="preserve">
+        <value>Телефон нөмірі</value>
+    </data>
+    <data name="BirthAreaId" xml:space="preserve">
+        <value>Туған жері</value>
+    </data>
+    <data name="Region" xml:space="preserve">
+        <value>Аймақ</value>
+    </data>
+    <data name="City" xml:space="preserve">
+        <value>Қала</value>
+    </data>
+    <data name="Street" xml:space="preserve">
+        <value>Көше</value>
+    </data>
+    <data name="Home" xml:space="preserve">
+        <value>Үй</value>
+    </data>
+    <data name="Appartment" xml:space="preserve">
+        <value>Пәтер</value>
+    </data>
+    <data name="EducationId" xml:space="preserve">
+        <value>Білім</value>
+    </data>
+    <data name="Experienced" xml:space="preserve">
+        <value>Жұмыс тәжірибесі</value>
+    </data>
+    <data name="Served" xml:space="preserve">
+        <value>Қызмет өткерген</value>
+    </data>
+    <data name="ServedArmyNumber" xml:space="preserve">
+        <value>Қызметтің әскери бөлімінің нөмірі</value>
+    </data>
+    <data name="PositionName" xml:space="preserve">
+        <value>Лауазымның атауы</value>
+    </data>
+    <data name="VTShServed" xml:space="preserve">
+        <value>Әскери-техникалық мектепте оқыту</value>
+    </data>
+    <data name="VTShId" xml:space="preserve">
+        <value>Әскери-техникалық мектеп</value>
+    </data>
+    <data name="VTShYear" xml:space="preserve">
+        <value>Оқу жылдары</value>
+    </data>
+    <data name="PositionId" xml:space="preserve">
+        <value>Лауазымы</value>
+    </data>
+    <data name="ArmyNumber" xml:space="preserve">
+        <value>Әскери бөлімінің нөмірі</value>
+    </data>
+    <data name="ContractYear" xml:space="preserve">
+        <value>Келісім-шарттың қолданылу мерзімі</value>
+    </data>
+    <data name="VacancyId" xml:space="preserve">
+        <value>Бос орын</value>
+    </data>
+    <data name="ImageUrl" xml:space="preserve">
+        <value>Сурет</value>
+    </data>
+    <data name="AutoBiography" xml:space="preserve">
+        <value>Өмірбаян</value>
+    </data>
+    <data name="EducationUrl" xml:space="preserve">
+        <value>Білім</value>
+    </data>
+    <data name="IncomePropertyUrl" xml:space="preserve">
+        <value>Жылжымайтын мүлік</value>
+    </data>
+    <data name="EmploymentUrl" xml:space="preserve">
+        <value>Еңбек кітабы</value>
+    </data>
+    <data name="MillitaryUrl" xml:space="preserve">
+        <value>Әскери билет</value>
+    </data>
+    <data name="SpecialCheckUrl" xml:space="preserve">
+        <value>Арнайы тексеру</value>
+    </data>
+    <data name="IdentityCardUrl" xml:space="preserve">
+        <value>Жеке куәлік</value>
+    </data>
+    <data name="TuberUrl" xml:space="preserve">
+        <value>Тубдиспансерден анықтама</value>
+    </data>
+    <data name="DermatologUrl" xml:space="preserve">
+        <value>Кожвендиспансерден анықтама</value>
+    </data>
+    <data name="PsychoNeurologicalUrl" xml:space="preserve">
+        <value>Психиспансерден анықтама</value>
+    </data>
+    <data name="NarcologicalUrl" xml:space="preserve">
+        <value>Наркологиялық диспансерден анықтама</value>
+    </data>
+    <data name="Agreed" xml:space="preserve">
+        <value>Келісілген</value>
+    </data>
+    <data name="SignKey" xml:space="preserve">
+        <value>Қол қою кілті</value>
+    </data>
+    <data name="CurrentStepId" xml:space="preserve">
+        <value>Кезең</value>
+    </data>
+    <data name="MedicalStatusId" xml:space="preserve">
+        <value>Медициналық мәртебе</value>
+    </data>
+    <data name="User" xml:space="preserve">
+        <value>Пайдаланушы</value>
+    </data>
+    <data name="Users" xml:space="preserve">
+        <value>Пайдаланушылар</value>
+    </data>
+    <data name="RoleId" xml:space="preserve">
+        <value>Рөлі</value>
+    </data>
+    <data name="Verified" xml:space="preserve">
+        <value>Расталды</value>
+    </data>
+    <data name="ArmyRegionId" xml:space="preserve">
+        <value>Аймақтық қолбасшылық</value>
+    </data>
+    <data name="QualificationId" xml:space="preserve">
+        <value>Біліктілік</value>
+    </data>
+    <data name="AuthorId" xml:space="preserve">
+        <value>Пайдаланушы</value>
+    </data>
+    <data name="Quantity" xml:space="preserve">
+        <value>Саны</value>
+    </data>
+    <data name="DescriptionRu" xml:space="preserve">
+        <value>Орыс тіліндегі сипаттама</value>
+    </data>
+    <data name="DescriptionEn" xml:space="preserve">
+        <value>Ағылшын тіліндегі сипаттама</value>
+    </data>
+    <data name="DescriptionKz" xml:space="preserve">
+        <value>Қазақша сипаттама</value>
+    </data>
+    <data name="VtShes" xml:space="preserve">
+        <value>ӘТМ</value>
+    </data>
+    <data name="NotFound" xml:space="preserve">
+        <value>Табылған жоқ</value>
+    </data>
+    <data name="Created" xml:space="preserve">
+        <value>Құрылды</value>
+    </data>
+    <data name="Updated" xml:space="preserve">
+        <value>Жаңартылды</value>
+    </data>
+    <data name="Deleted" xml:space="preserve">
+        <value>Жойылды</value>
+    </data>
+    <data name="ServerError" xml:space="preserve">
+        <value>Сервер Қатесі</value>
+    </data>
+    <data name="BadRequest" xml:space="preserve">
+        <value>Нашар сұрау</value>
+    </data>
+    <data name="Forbidden" xml:space="preserve">
+        <value>Сіз бұл әрекетке қол жеткізе алмайсыз</value>
+    </data>
+    <data name="FixedLength" xml:space="preserve">
+        <value>Өрістің ұзындығы болуы керек:</value>
+    </data>
+    <data name="MaxLength" xml:space="preserve">
+        <value>Өрістің максималды ұзындығы болуы керек:</value>
+    </data>
+    <data name="MinLength" xml:space="preserve">
+        <value>Өрістің минималды ұзындығы болуы керек:</value>
+    </data>
+    <data name="ExistedError" xml:space="preserve">
+        <value>Мұндай өріспен келесі мән бар:</value>
+    </data>
+    <data name="NotExistedError" xml:space="preserve">
+        <value>Берілген мәні бар келесі өріс жоқ:</value>
+    </data>
+    <data name="NotValid" xml:space="preserve">
+        <value>Келесі өріс жарамды мән емес:</value>
+    </data>
+    <data name="SystemDataError" xml:space="preserve">
+        <value>Сіз жүйелік деректерді жоя алмайсыз</value>
+    </data>
+    <data name="UnexpectedError" xml:space="preserve">
+        <value>Бірдеңе дұрыс болмады</value>
+    </data>
+    <data name="Registered" xml:space="preserve">
+        <value>Сәтті тіркелді</value>
+    </data>
+    <data name="Welcome" xml:space="preserve">
+        <value>Қош келдіңіз</value>
+    </data>
+    <data name="NotVerified" xml:space="preserve">
+        <value>Сіздің есептік жазбаңыз расталмаған</value>
+    </data>
+    <data name="Nonactive" xml:space="preserve">
+        <value>Сіздің есептік жазбаңыз өшірілді</value>
+    </data>
+    <data name="Notification" xml:space="preserve">
+        <value>Есептік жазбаны растау коды сәтті жіберілді</value>
+    </data>
+    <data name="Success" xml:space="preserve">
+        <value>Сәтті орындалды</value>
+    </data>
+    <data name="Failure" xml:space="preserve">
+        <value>Сәтсіз аяқталды</value>
+    </data>
+    <data name="StatusUpdated" xml:space="preserve">
+        <value>Сіздің сұранысыңыз бойынша күй жаңартылды</value>
+    </data>
+    <data name="NotExisted" xml:space="preserve">
+        <value>Келесі мән жасалмады:</value>
+    </data>
+    <data name="Saved" xml:space="preserve">
+        <value>Сақталған</value>
+    </data>
+    <data name="NotEmpty" xml:space="preserve">
+        <value>Бұл өріс бос болмауы керек</value>
+    </data>
+    <data name="NotNull" xml:space="preserve">
+        <value>Берілген өрісті толтырыңыз</value>
+    </data>
+    <data name="IIN_Existed" xml:space="preserve">
+        <value>Бұл ЖСН тіркелген</value>
+    </data>
+    <data name="Phone_Existed" xml:space="preserve">
+        <value>Бұл телефон нөмірі тіркелген</value>
+    </data>
+    <data name="Email_Existed" xml:space="preserve">
+        <value>Бұл email тіркелген</value>
+    </data>
+    <data name="Invalid_Credentials" xml:space="preserve">
+        <value>Қате деректер</value>
+    </data>
+    <data name="Already_Verified" xml:space="preserve">
+        <value>Бұл есептік жазба қазірдің өзінде іске қосылды</value>
+    </data>
+    <data name="Invalid_Code" xml:space="preserve">
+        <value>Бұл код қазірдің өзінде іске қосылған немесе дұрыс емес</value>
+    </data>
+    <data name="Account_Verified" xml:space="preserve">
+        <value>Сіздің есептік жазбаңыз сәтті іске қосылды</value>
+    </data>
+    <data name="Registered_Then_Verify" xml:space="preserve">
+        <value>Есептік жазба сәтті жасалды, оны поштаға келген кодты енгізу арқылы растаңыз</value>
+    </data>
+    <data name="Confirm_Account" xml:space="preserve">
+        <value>Есептік жазбаны растаңыз</value>
+    </data>
+    <data name="IIN_Number" xml:space="preserve">
+        <value>Ұзындығы 12 мәнді сандарға ғана рұқсат етіледі</value>
+    </data>
+    <data name="Password_Rules" xml:space="preserve">
+        <value>Парольдің минималды ұзындығы 6 таңбадан асуы керек және әріптер (латын) мен сандар болуы керек, сонымен қатар арнайы таңбаларға (@_)рұқсат етіледі</value>
+    </data>
+    <data name="Name_Rules" xml:space="preserve">
+        <value>Тек орыс және қазақ алфавиттерінің әріптеріне рұқсат етіледі</value>
+    </data>
+    <data name="Phone_Rules" xml:space="preserve">
+        <value>Қазақстандық операторлардың телефон нөмірлеріне ғана рұқсат етіледі (+77)</value>
+    </data>
+    <data name="Email_Rules" xml:space="preserve">
+        <value>Пошта жарамды емес</value>
+    </data>
+    <data name="OnlyNumber" xml:space="preserve">
+        <value>Тек сандық мәндерге рұқсат етіледі</value>
+    </data>
+</root>
