@@ -144,19 +144,13 @@ public class AuthRepository : IAuthRepository
             
             if (BCrypt.Net.BCrypt.Verify(loginDto.Password, user.Password))
             {
-                var stringToken = GenerateToken(user);
-                TokenDTO tokenDto = new TokenDTO()
-                {
-                    Expires = AppConstant.JWTExpiredMin * 60,
-                    jwtToken = stringToken,
-                    UserDto = _mapper.Map<UserDTO>(user)
-                };
+                var token = GenerateToken(user);
                 return new AuthResponse<TokenDTO>()
                 {
                     StatusCode = (int)HttpStatusCode.OK,
                     Success = true,
                     Message = $"{_localizer["Welcome"]}",
-                    Data = tokenDto
+                    Data = token
                 };
 
             }
@@ -170,6 +164,56 @@ public class AuthRepository : IAuthRepository
                     Data = null
                 };
             }
+        }
+        else
+        {
+            return new AuthResponse<TokenDTO>()
+            {
+                StatusCode = (int)HttpStatusCode.BadRequest,
+                Success = false,
+                Message = $"{_localizer["Invalid_Credentials"]}",
+                Data = null
+            };
+        }
+    }
+
+    public async Task<AuthResponse<TokenDTO>> EcpLoginAsync(EcpLoginDTO loginDto)
+    {
+        var user = await _appDbContext.Users.Include(u=>u.Role).FirstOrDefaultAsync(u => u.IIN == loginDto.IIN);
+        if (user != null)
+        {
+            if (user.Verified == false)
+            {
+                return new AuthResponse<TokenDTO>()
+                {
+                    StatusCode = (int)HttpStatusCode.BadRequest,
+                    Success = false,
+                    Message = $"{_localizer["Nonactive"]}",
+                    Data = null
+                }; 
+            }
+
+            if (user.Status == false)
+            {
+                return new AuthResponse<TokenDTO>()
+                {
+                    StatusCode = (int)HttpStatusCode.BadRequest,
+                    Success = false,
+                    Message = $"{_localizer["Nonactive"]}",
+                    Data = null
+                }; 
+            }
+            
+            var token = GenerateToken(user);
+            return new AuthResponse<TokenDTO>()
+            {
+                StatusCode = (int)HttpStatusCode.OK,
+                Success = true,
+                Message = $"{_localizer["Welcome"]}",
+                Data = token
+            };
+            
+
         }
         else
         {
@@ -222,7 +266,7 @@ public class AuthRepository : IAuthRepository
 
 
     //Auth Repository Extensions
-    private static string GenerateToken(User user)
+    private TokenDTO GenerateToken(User user)
     {
         var tokenDescriptor = new SecurityTokenDescriptor
         {
@@ -251,7 +295,12 @@ public class AuthRepository : IAuthRepository
         var token = tokenHandler.CreateToken(tokenDescriptor);
         var jwtToken = tokenHandler.WriteToken(token);
         var stringToken = tokenHandler.WriteToken(token);
-        return stringToken;
+        return new TokenDTO()
+        {
+            Expires = AppConstant.JWTExpiredMin * 60,
+            jwtToken = stringToken,
+            UserDto = _mapper.Map<UserDTO>(user)
+        };
     }
 
     private async Task<AuthResponse<TokenDTO>?> VerifyUserAsync(string Code, User user)
