@@ -16,7 +16,8 @@ public class RegisterAsyncCommandValidator : AbstractValidator<RegisterAsyncComm
             .OverridePropertyName("IIN");
         RuleFor(r => r.RegisterData.Password)
             .NotEmpty().WithMessage(x => localizer["Required"])
-            .Matches(@"^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z@*_.]{6,}$").WithMessage(x => localizer["Password_Rules"])
+            .Matches(@"^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z@*_.][^\s]{6,}$").WithMessage(x => localizer["Password_Rules"])
+
             .OverridePropertyName("Password");
         RuleFor(r => r.RegisterData.Name)
             .NotEmpty().WithMessage(x => localizer["Required"])

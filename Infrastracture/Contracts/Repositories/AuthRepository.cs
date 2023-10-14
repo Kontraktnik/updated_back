@@ -219,10 +219,13 @@ public class AuthRepository : IAuthRepository
         {
             return new AuthResponse<TokenDTO>()
             {
-                StatusCode = (int)HttpStatusCode.BadRequest,
+                StatusCode = (int)HttpStatusCode.OK,
                 Success = false,
                 Message = $"{_localizer["Invalid_Credentials"]}",
-                Data = null
+                Data = new TokenDTO()
+                {
+                    IsUserExist = false
+                }
             };
         }
     }
