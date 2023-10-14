@@ -51,5 +51,5 @@ public class SurveyCUDTO
     
     public bool Agreed { get; set; }
     public string SignKey { get; set; }
-    
+    public string? UserSign { get; set; }
 }

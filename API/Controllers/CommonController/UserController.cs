@@ -36,14 +36,14 @@ public class UserController : BaseApiController
     //Отправка документов - Request
     [AuthorizeByRole(AppConstant.UserRoleName)]
     [HttpPost]
-    public async Task<ActionResult<ResponseDTO<ProfileDTO>>> SendRequest([FromBody] SurveyCUDTO model,string UserSign)
+    public async Task<ActionResult<ResponseDTO<ProfileDTO>>> SendRequest([FromBody] SurveyCUDTO model)
     {
         var survey =  await _mediator.Send(new AddSurveyCommand(model, User.FindFirst(ClaimTypes.NameIdentifier)?.Value,0));
         
         if (survey != null)
         {
             var user =    await  _mediator.Send(new GetUserByIdAsync(new UserSpecification(User.FindFirst(ClaimTypes.NameIdentifier)?.Value,null)));
-            var requestDto = new SendRequestDTO() { Status = 1, SignKey = UserSign, StepId = AppConstant.SendedState, SurveyId = survey.Data.Id };
+            var requestDto = new SendRequestDTO() { Status = 1, SignKey = model.UserSign, StepId = AppConstant.SendedState, SurveyId = survey.Data.Id };
             var result = await _mediator.Send(new SendRequestCommand(user.Data, requestDto));
             if (result.Data != null)
             {
