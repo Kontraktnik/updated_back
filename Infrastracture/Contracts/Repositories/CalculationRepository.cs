@@ -1,6 +1,7 @@
 using Application.Contracts.Persistence;
 using Application.DTO.Calculation;
 using Application.DTO.Common;
+using Domain.Models.CalculationModels;
 using Infrastracture.Database;
 using Microsoft.EntityFrameworkCore;
 
@@ -51,6 +52,16 @@ public class CalculationRepository : ICalculationRepository
                         salary += rank_salary.Salary;
 
                     }
+                    var areasSalaries = AreaPopularSalary.GetAreaPopularSalaries();
+                    if(model.AreaId != null && model.PersonQuantity != null)
+                    {
+                       var areasSalary = areasSalaries.Where(p => (p.AreaId == model.AreaId && p.PersonQuntity == model.PersonQuantity)).First();
+                        if (areasSalary != null)
+                        {
+                            salary += areasSalary.Price;
+                        }
+                      
+                    }
                     
                     return new ResponseDTO<int>()
                     {
@@ -94,5 +105,29 @@ public class CalculationRepository : ICalculationRepository
             };
         }
         
+    }
+
+    public async Task<ResponseDTO<AreaSalary[]>> GetSalaryArea()
+    {
+        try
+        {
+            AreaSalary[] areaSalaries = AreaSalary.GetAllSalariesArea();
+            return new ResponseDTO<AreaSalary[]>()
+            {
+                Success = true,
+                StatusCode = 200,
+                Data = areaSalaries
+            };
+        }
+        catch(Exception ex)
+        {
+            return new ResponseDTO<AreaSalary[]>()
+            {
+                Success = false,
+                StatusCode = 500,
+                Message = ex.Message,
+                Data = null
+            };
+        }
     }
 }

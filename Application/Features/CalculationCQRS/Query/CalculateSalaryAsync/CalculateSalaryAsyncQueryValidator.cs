@@ -24,5 +24,12 @@ public class CalculateSalaryAsyncQueryValidator : AbstractValidator<CalculateSal
             .NotEmpty().WithMessage(x => localizer["Required"])
             .GreaterThan(0).WithMessage(x => localizer["NotValid"])
             .OverridePropertyName("ServiceYearId");
+        RuleFor(p => p.model.AreaId)
+            .NotEmpty().WithMessage(x => localizer["Required"])
+            .GreaterThan(0).WithMessage(x => localizer["NotValid"])
+            .OverridePropertyName("AreaId");
+        RuleFor(p => p.model.PersonQuantity)
+            .GreaterThanOrEqualTo(0).WithMessage(x => localizer["NotValid"])
+            .OverridePropertyName("PersonQuantity");
     }
 }

@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Application.Features.CalculationCQRS.Query.CalculateSalaryAsync;
 
-public class CalculateSalaryAsyncQueryHandler : IRequestHandler<CalculateSalaryAsyncQuery,ResponseDTO<int>>
+public class CalculateSalaryAsyncQueryHandler : IRequestHandler<CalculateSalaryAsyncQuery, ResponseDTO<int>>
 {
     private ICalculationRepository _repository { get; set; }
 
