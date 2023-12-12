@@ -714,9 +714,9 @@ namespace Domain.Models.CalculationModels
                  new AreaSalary
                 {
                     Id = 3,
-                    TitleRu = "КОНАЕВ",
-                    TitleKz = "КОНАЕВ",
-                    TitleEn = "КОНАЕВ",
+                    TitleRu = "Конаев",
+                    TitleKz = "Конаев",
+                    TitleEn = "Конаев",
                 },
                   new AreaSalary
                 {
