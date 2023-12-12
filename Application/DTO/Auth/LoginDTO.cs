@@ -8,3 +8,9 @@ public class LoginDTO
     
     public string? Code { get; set; }
 }
+
+public class EcpLoginDTO
+{
+    public string IIN { get; set; }
+    public string SignText { get; set; }
+}

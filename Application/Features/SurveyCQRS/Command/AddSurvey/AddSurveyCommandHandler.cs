@@ -4,6 +4,7 @@ using Application.DTO.Common;
 using Application.DTO.Survey;
 using Application.Resource;
 using AutoMapper;
+using Domain.Models.DigitalSignModels;
 using Domain.Models.SurveyModels;
 using Domain.Models.SystemModels;
 using MediatR;
@@ -109,6 +110,14 @@ public class AddSurveyCommandHandler : IRequestHandler<AddSurveyCommand,Response
                 survey.Phone = user.Phone;
                 survey.CreatedAt = DateTime.Now;
                 survey.UpdatedAt = DateTime.Now;
+                // survey.DigitalSigns = new List<DigitalSign>()
+                // {
+                //     new DigitalSign()
+                //     {
+                //         FileName = request.model.UserSign, Signed = DateTime.Now, IsValid = true,
+                //         WhoSignedId = user.Id
+                //     }
+                // };
 
                 if (request.Status != null)
                 {

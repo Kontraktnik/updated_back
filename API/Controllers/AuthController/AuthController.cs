@@ -5,6 +5,7 @@ using Application.DTO.Common;
 using Application.DTO.User;
 using Application.Features.AuthCQRS.Command.RegisterAsync;
 using Application.Features.AuthCQRS.Command.VerifyAsync;
+using Application.Features.AuthCQRS.Query.EcpLoginAsync;
 using Application.Features.AuthCQRS.Query.LoginAsync;
 using Application.Features.UserCQRS.Query.GetUserByIdAsync;
 using Application.Resource;
@@ -42,6 +43,16 @@ public class AuthController : BaseApiController
     public async Task<ActionResult<AuthResponse<TokenDTO>>> LoginAsync([FromBody] LoginDTO loginDto)
     {
         var query = new LoginAsyncQuery(loginDto);
+        var result = await _mediator.Send(query);
+        return StatusCode(result.StatusCode, result);
+    }
+    
+    
+    [HttpPost("ByEcp")]
+    [ProducesResponseType(typeof(AuthResponse<TokenDTO>), (int)HttpStatusCode.OK)]
+    public async Task<ActionResult<AuthResponse<TokenDTO>>> LoginAsync([FromBody] EcpLoginDTO loginDto)
+    {
+        var query = new EcpLoginAsyncQuery(loginDto);
         var result = await _mediator.Send(query);
         return StatusCode(result.StatusCode, result);
     }
